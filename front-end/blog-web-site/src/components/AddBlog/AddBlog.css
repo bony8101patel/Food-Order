@@ -1,0 +1,37 @@
+/* AddBlog.css */
+.add-blog-container {
+    display: flex;
+    flex-direction: column;
+    /* Use column layout */
+    margin: 5.5% auto;
+    /* Center the form in the viewport */
+    align-items: center;
+    /* Center align items */
+    height: auto;
+    /* Allow the container to auto-adjust its height */
+}
+
+.add-blog-form {
+    width: 60%;
+    /* Set the form width to 60% */
+    margin-top: 20px;
+    /* Add margin at the top */
+}
+
+.custom-input-group {
+    width: 100%;
+    /* Make input groups full-width within the form */
+}
+
+/* Style the InputGroup.Text component to ensure consistent width */
+.input-group-text {
+    min-width: 150px;
+    /* Set minimum width to 100px for consistency */
+    text-align: center;
+    /* Center the text within the InputGroup.Text */
+}
+
+.add-blog-heading {
+    text-align: center;
+    /* Center the heading text */
+}

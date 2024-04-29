@@ -1,0 +1,29 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5.5% auto;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-form {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.custom-input-group {
+    width: 100%;
+}
+
+.registration-heading {
+    text-align: center;
+}
+
+.password-visibility-toggle {
+    width: 5px;
+    /* Adjust the width as desired */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

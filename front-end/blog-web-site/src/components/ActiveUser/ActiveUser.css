@@ -1,0 +1,112 @@
+.Toastify__toast-container {
+    width: auto;
+    max-width: unset;
+}
+
+.Toastify__toast {
+    white-space: nowrap;
+}
+
+.user-container {
+    margin: 5.5% auto;
+    width: 97%;
+}
+
+.table-container {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table-container th,
+.table-container td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.table-container th {
+    background-color: #6a98cc;
+    text-align: center;
+    font-weight: bold;
+    color: white
+}
+
+.description {
+    width: auto;
+}
+
+.table-container tbody tr:hover {
+    background-color: #bbb9b9;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+Button styles .button-container button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+button.inactive {
+    background-color: #f44336;
+    color: white;
+}
+
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a98cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    background-color: #6a98cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.pagination button:hover {
+    background-color: #579ff1;
+}

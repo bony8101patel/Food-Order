@@ -1,0 +1,36 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5.5% auto;
+    align-items: center;
+    height: auto;
+}
+
+.login-form {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.custom-input-group {
+    width: 100%;
+}
+
+.login-heading {
+    text-align: center;
+}
+
+.input-group-text {
+    min-width: 30px;
+    /* Set minimum width to 100px for consistency */
+    text-align: center;
+    /* Center the text within the InputGroup.Text */
+}
+
+.password-visibility-toggle {
+    /* width: 5px; */
+    /* Adjust the width as desired */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+/* Customize Carousel arrow colors */
+.custom-carousel .carousel-control-prev,
+.custom-carousel .carousel-control-next {
+    /* color: #333 !important; /* Change the arrow color to your preferred color */
+    opacity: 0.7 !important;
+    /* Adjust opacity if needed */
+}
+
+.custom-carousel .carousel-control-prev:hover,
+.custom-carousel .carousel-control-next:hover {
+    color: #000 !important;
+    /* Change the arrow color on hover */
+    opacity: 1 !important;
+    /* Make the arrows fully opaque on hover */
+}
+
+/* Customize the image hint color */
+.custom-carousel .carousel-item::before {
+    content: '';
+    /* background-color: rgba(145, 139, 139, 0); */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* CSS for side-by-side image layout */
+.existing-images-container {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Wrap images if they overflow */
+    gap: 10px; /* Add some space between images */
+}
+
+.image-item {
+    display: flex; /* Align remove button with the image */
+    flex-direction: column; /* Arrange image and button vertically */
+    align-items: center; /* Center-align the image and button */
+}
